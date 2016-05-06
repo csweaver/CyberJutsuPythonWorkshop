@@ -15,7 +15,7 @@ Draws a rectangular key starting at the x position and extending downward by the
 of pixels `width`. It also draws the note name in pink at the bottom of the key.
 
 1. Create a variable notes and assign it a list with eight note names as strings: C, D, E, F, G, A, B, C1
-2. Create a variable sounds and assign it a dictionary. Each key will be a note name (see above). Each value should be the corrisponding 
+2. Create a variable sounds and assign it a dictionary. Each key will be a note name (see above). Each value should be the corresponding 
 sound to the note. The sounds url is http://womenscodingcircle.com/scale/<note name>.wav so C would be at http://womenscodingcircle.com/scale/C.wav
 To create a sound from a url use the helper function urlToSound(url). Remember the values should be sounds, not urls.
 3. Fill in the drawPiano(canvas) function. You will need to create eight rectangles not overlapping, 
@@ -30,5 +30,5 @@ variable called `notePlayed`. Next use `notePlayed` to figure out which sound to
 You now should have a working piano! Congrats!!
 
 ## Challenge
-If you would like more of a challenge. Figure out how to draw and play the sharp keys (black keys). 
+If you would like more of a challenge, figure out how to draw and play the sharp keys (black keys). 
 The sharp sounds are at http://womenscodingcircle.com/scale/<note name>Sharp.wav
